@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT videoteca (nombre, ubicacion, pelicula+, fecha_ultima_act) >
+
+<!ELEMENT nombre (#PCDATA) >
+<!ELEMENT ubicacion (#PCDATA) >
+<!ELEMENT fecha_ultima_act (#PCDATA) >
+
+
+
+<!ELEMENT pelicula (titulo, duracion, año, sinopsis, reparto, genero, enlace) >
+
+<!ELEMENT titulo (#PCDATA) >
+<!ELEMENT duracion (#PCDATA) >
+<!ELEMENT año (#PCDATA) >
+<!ELEMENT sinopsis (#PCDATA) >
+<!ELEMENT genero (#PCDATA) >
+<!ELEMENT enlace (#PCDATA) >
+
+
+
+<!ELEMENT reparto (actores+) >
+
+
+
+<!ELEMENT actores (nombre_a, enlace_wiki) >
+
+<!ELEMENT nombre_a (#PCDATA) >
+<!ELEMENT enlace_wiki (#PCDATA) >
