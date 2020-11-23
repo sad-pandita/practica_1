@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!ELEMENT >
+<!DOCTYPE videoteca SYSTEM "estructura_datos.dtd">
+
+<videoteca>
+	<nombre></nombre>
+	<ubicacion></ubicacion>
+	<fecha_ultima_act></fecha_ultima_act>
+
+	<pelicula>
+		<titulo></titulo>
+		<duracion></duracion>
+		<año></año>
+		<sinopsis></sinopsis>
+		<genero></genero>
+		<enlace></enlace>
+		
+		<reparto>
+			<actores>
+				<nombre_a></nombre_a>
+				<enlace_wiki></enlace_wiki>
+			</actores>
+		</reparto>
 
 
+	</pelicula>
 
+
+</videoteca>
